@@ -9,4 +9,16 @@ export default defineNuxtConfig({
   app: {
     baseURL: "/nte-daily/",
   },
+
+  vuetify: {
+    moduleOptions: {
+      // ✅ 這裡只放 module 本身設定
+    },
+
+    vuetifyOptions: {
+      theme: {
+        defaultTheme: "light", // ✅ 🔥 正確位置
+      },
+    },
+  },
 });
