@@ -52,6 +52,7 @@
                 v-for="item in filteredTasks(c)"
                 :key="item.name"
                 cols="12"
+                class="mt-2"
               >
                 <v-card
                   class="task-card"
