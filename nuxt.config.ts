@@ -6,6 +6,6 @@ export default defineNuxtConfig({
   ssr: false,
 
   app: {
-    baseURL: import.meta.env.PROD ? "/nte-daily/" : "/",
+    baseURL: "/nte-daily/",
   },
 });
