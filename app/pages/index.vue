@@ -5,7 +5,7 @@
       <!-- ✅ 進度 -->
       <v-card class="mb-3 pa-3 rounded-xl py-5">
         <div class="d-flex justify-space-between">
-          <span style="font-size: 18px">今日完成度</span>
+          <span style="font-size: 18px">完成度</span>
           <span>{{ progress }}%</span>
         </div>
         <v-progress-linear
